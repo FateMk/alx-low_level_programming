@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*
- * main -main block
+ * main - main block
  * Decription: print alphabets except e and q
  * Return: 0
  */
@@ -15,5 +15,5 @@ int main(void)
 			putchar(a);
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
