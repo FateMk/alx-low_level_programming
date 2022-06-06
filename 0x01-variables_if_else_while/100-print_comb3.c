@@ -27,7 +27,7 @@ int main(void)
 			if (i < 89)
 			{
 				putchar(44 + 32);
-				putchar(',' ' ');
+				putchar(', ');
 			}
 		}
 		i++;
