@@ -6,7 +6,7 @@
  /*print if thelast digit of the radom number is zero greater or less then 5*/
  /*Return: 0*/
 /*main function: start of the program*/
-int main(void) 
+int main(void)
 {
 	int n, m;
 
