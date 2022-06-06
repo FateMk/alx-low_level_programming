@@ -15,8 +15,8 @@ int main(void)
 	{
 		for (j = i + 1; i < 10; j++)
 		{
+			putchar((i % 10) + '0');
 			putchar((j % 10) + '0');
-			putchar((k % 10) + '0');
 			if (i == 89 && j == 9)
 				continue;
 			putchar(',');
