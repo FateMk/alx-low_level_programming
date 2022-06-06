@@ -17,7 +17,7 @@ int main(void)
 	while (i < 100)
 	{
 		j = i / 10;
-		k = i % 10
+		k = i % 10;
 		/*for (j = i + 1; i < 10; j++)
 		{*/
 		if (j < k)
