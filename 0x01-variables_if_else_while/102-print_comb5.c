@@ -17,11 +17,11 @@ int main(void)
 		{
 			c = j / 10;
 			d = j % 10;
-			if(a < c || (a == c && b < d))
+			if (a < c || (a == c && b < d))
 			{
 				 putchar(a + '0');
 				 putchar(b + '0');
-				 putchar(32); 
+				putchar(32); 
 				 putchar(c + '0');
 				 putchar(d + '0');
 				 if (!(a == 9 && b == 8))
