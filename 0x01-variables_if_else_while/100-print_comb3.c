@@ -23,7 +23,7 @@ int main(void)
 	if (i < 99)
 	{
 		putchar(44);
-		puchar(32);
+		putchar(32);
 	}
 	putchar('\n');
 	return (0);
