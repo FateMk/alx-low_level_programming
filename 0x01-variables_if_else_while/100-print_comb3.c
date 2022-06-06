@@ -26,7 +26,7 @@ int main(void)
 			putchar(k + '0');
 			if (i < 89)
 			{
-				putchar(44, 32);
+				putchar(44 + 32);
 				putchar(',', ' ');
 			}
 		}
