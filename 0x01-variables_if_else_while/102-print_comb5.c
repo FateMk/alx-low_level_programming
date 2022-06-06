@@ -2,7 +2,7 @@
 /**
  *main - main block
  *Description: combination of two two-digits number.
- *REturn: 0
+ *Return: 0
  */
 int main(void)
 {
