@@ -16,12 +16,14 @@ int main(void)
 	i = 0;
 	while (i < 100)
 	{
+		j = i / 10;
+		k = i % 10
 		/*for (j = i + 1; i < 10; j++)
 		{*/
 		if (j < k)
 		{
-			putchar((j / 10) + '0');
-			putchar((k % 10) + '0');
+			putchar((j + '0');
+			putchar((k + '0');
 			if (i < 89)
 			{
 				putchar((44) + ',');
