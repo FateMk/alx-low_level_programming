@@ -4,7 +4,7 @@
 /*main - main block*/
 /*Description: Get a random number and print the number*/
 /*Return: 0*/
-int main(void)
+int main(void) /*main method start of the program*/
 {
 	int n;
 
