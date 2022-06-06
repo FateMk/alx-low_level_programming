@@ -1,14 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* 
-*main -main block
-*Description: prints if random number is poditive, negative or zero
-*Return: 0
-*/
+/*main -main block*/
+/*Description: prints if random number is poditive, negative or zero*/
+/*Return: 0*/
 int main(void)
-{int n;
-	
+{
+	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
