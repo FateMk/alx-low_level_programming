@@ -23,8 +23,8 @@ int main(void)
 			putchar(k + '0');
 			if (i < 89)
 			{
-				putchar((44), (32));
-				putchar((','), (' '));
+				putchar((44) (32));
+				putchar((',') (' '));
 			}
 		}
 		i++;
