@@ -2,10 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - main block
- *Description: prints a random number
+* main - main block
+*Description: prints a random number
 *print if thelast digit of the radom number is zero greater or less then 5
- *Return: 0*/
+*Return: 0
+*/
 int main(void)
 {
 	int n, m;
