@@ -11,7 +11,6 @@
 int main(void)
 {
 	int i, j, k;
-	
 	i = 0;
 
 	/*for (i = 0; i < 100; i++)*/
@@ -24,7 +23,7 @@ int main(void)
 		putchar(j + '0');
 		putchar(k + '0');
 		}
-			if(i < 89)
+			if (i < 89)
 			{
 				putchar(44);
 				putchar(32);
