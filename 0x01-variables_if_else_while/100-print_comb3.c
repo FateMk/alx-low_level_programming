@@ -10,24 +10,19 @@
  */
 int main(void)
 {
-	int i, j, k;
-	/*for (i = 0; i < 100; i++)*/
-	i = 0;
-	while (i < 100)
+	int i, j;
+	for (i = 0; i < 9; i++)
 	{
-		j = i / 10;
-		k = i % 10;
-		if (j < k)
+		for (j = i + 1; i < 10; j++)
 		{
-		putchar(j + '0');
-		putchar(k + '0');
+			putchar((j % 10) + '0');
+			putchar((k % 10) + '0');
+			if (i == 89 && j == 9)
+				continue;
+				putchar(',');
+				putchar(' ');
+			
 		}
-			if (i < 89)
-			{
-				putchar(44);
-				putchar(32);
-			}
-		i++;
 	}
 	putchar('\n');
 	return (0);
