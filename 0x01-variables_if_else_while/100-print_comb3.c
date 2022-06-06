@@ -19,13 +19,12 @@ int main(void)
 
 		putchar(j + '0');
 		putchar(k + '0');
-	}
-	if (i < 99)
-	{
+		if (i < 99)
+		{
 		putchar(44);
 		putchar(32);
+		}
 	}
 	putchar('\n');
-	
 	return (0);
 }
