@@ -3,9 +3,9 @@
 #include <time.h>
 /* * 
 *main -main block
+*Description: prints if random number is poditive, negative or zero
 *Return: 0
 */
-
 int main(void)
 {
 	int n;
@@ -19,6 +19,5 @@ int main(void)
 		printf("%d is negative\n", n);
 	else
 		printf("%d is zero\n", n);
-	
 	return (0);
 }
