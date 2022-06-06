@@ -5,7 +5,7 @@
  * only use putchar function.
  * can only use putchar to a maximum of six times.
  * not allowed to usr any variable of date type char.
- * Return : 0.
+ * Return: 0
  */
 int main(void)
 {
