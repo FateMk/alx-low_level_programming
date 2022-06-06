@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	
+	/* printing all number to base 10 using printf */
 	for (i = 0; i < 10; i++)
 	{
 		printf("%i", i);
