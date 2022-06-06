@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: print combination of 3 digits
- * only use putchar function
- * can only use putchar to a maximum of six times
- * not allowed to usr any variable of date type char
- * Return : 0
+ * main - main block.
+ * Description: print combination of 3 digits.
+ * only use putchar function.
+ * can only use putchar to a maximum of six times.
+ * not allowed to usr any variable of date type char.
+ * Return : 0.
  */
 int main(void)
 {
