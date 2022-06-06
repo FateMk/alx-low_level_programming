@@ -5,9 +5,8 @@
  /*Description: prints a random number*/
  /*print if thelast digit of the radom number is zero greater or less then 5*/
  /*Return: 0*/
-/*main function: start of the program*/
 int main(void)
-{
+{/*main function: start of the program*/
 	int n, m;
 
 	srand(time(0));
