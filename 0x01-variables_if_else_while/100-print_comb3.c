@@ -19,9 +19,8 @@ int main(void)
 			putchar((k % 10) + '0');
 			if (i == 89 && j == 9)
 				continue;
-				putchar(',');
-				putchar(' ');
-			
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
