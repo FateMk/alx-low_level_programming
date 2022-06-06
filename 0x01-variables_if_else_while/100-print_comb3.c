@@ -11,7 +11,6 @@
 int main(void)
 {
 	int i, j, k;
-	
 	/*for (i = 0; i < 100; i++)*/
 	i = 0;
 	while (i < 100)
