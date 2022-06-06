@@ -31,7 +31,7 @@ int main(void)
 			}
 		}
 	}
-	putcahr(10);
+	putchar(10);
 	return (0);
 }
 
