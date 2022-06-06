@@ -22,8 +22,8 @@ int main(void)
 	}
 	if (i < 99)
 	{
-		putchar(44);
-		putchar(32);
+		putchar(44 + ', ');
+		putchar(32 + ', ');
 	}
 	putchar('\n');
 	return (0);
