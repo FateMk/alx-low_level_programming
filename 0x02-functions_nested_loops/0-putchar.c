@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
 /**
  * main - main block
  * Description: print _putchar as out put
