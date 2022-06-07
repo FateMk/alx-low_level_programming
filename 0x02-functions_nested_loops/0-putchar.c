@@ -6,6 +6,14 @@
  */
 int main(void)
 {
-	printf("_putchar");
+	char *a = "_putchar";
+	int i;
+	
+	i = 0;
+	while (i < strlen(a))
+	{
+		putchar(a);
+		i++;
+	}
 	return (0);
 }
