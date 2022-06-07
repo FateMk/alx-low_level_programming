@@ -14,7 +14,7 @@ int main(void)
 	i = 0;
 	while (i < strlen(a))
 	{
-		putchar(a);
+		putchar(a[i]);
 		i++;
 	}
 	return (0);
