@@ -6,7 +6,6 @@
  */
 int main(void)
 {
-	char a[] = "_putchar";
-	putchar(a;
+	printf("_putchar");
 	return (0);
 }
