@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <ctype.h>
+#include "main.h"
 /**
  * main - main block
  * Description: print _putchar as out put
@@ -17,6 +15,6 @@ int main(void)
 		_putchar(a[i]);
 		i++;
 	}
-	
+	_putchar('\n');
 	return (0);
 }
