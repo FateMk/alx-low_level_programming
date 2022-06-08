@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - print_sign block
- * Description: print the sign of a number n.
+ * Description: print if number n is posive, negative or zerro.
  * Return: 1 if greater then zero Return: 0 if it zero else Return: -1 if less than zero
  */
 int print_sign(int n)
@@ -19,7 +19,7 @@ int print_sign(int n)
 	else
 	{
 		_putchar('-');
-		return(-1);
+		return (-1);
 	}
 	_putchar('\n');
 }
