@@ -16,14 +16,14 @@ void times_table(void)
 		while (b < 10)
 		{
 			c = a * b;
-			if (c > 9);
+			if (c > 9)
 			{
 				_putchar((c / 10) + '0');
 				_putchar((c % 10) + '0');
 			}
 			else if (b != 0)
 			{
-				_putchar(c + '0')
+				_putchar(c + '0');
 			}
 			else
 			{
