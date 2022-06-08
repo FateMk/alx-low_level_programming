@@ -5,6 +5,12 @@
  * followed by a new line
  * Return: 0
  */
+int main()
+{
+	print_alphabet();
+	getchar();
+	return (0);
+}
 void print_alphabet(void)
 {
 	char i;
@@ -14,10 +20,4 @@ void print_alphabet(void)
 		putchar(i);
 		putchar('\n');
 	}
-}
-int main()
-{
-	int alpha = print_alphabet();
-	getchar();
-	return (0);
 }
