@@ -3,7 +3,7 @@
  * print_sign - print_sign block
  * @n: type int integer, can be negative or positive
  * Description: prints +, -, or 0 depending on the number
- * Return: 1, 0 or -1 
+ * Return: 1 if +, 0 if 0 or -1 if -
  */
 int print_sign(int n)
 {
