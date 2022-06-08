@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isalpha - _isalpha block
+ * @c type character c, can be aphabet or not
  * Description: Checks if character c is an alphabet.
  * Return: 1 else Return: 0
  */
