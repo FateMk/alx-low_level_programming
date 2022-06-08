@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * print_alphabet_x10 -print_alphabet_x10 block
+ * print_alphabet_x10 - print_alphabet_x10 block
  * Description: Prints alphabets 10 times 
  * follwed by a new line
  */
@@ -16,8 +16,7 @@ void print_alphabet_x10(void)
 		while (i <= 'z')
 		{
 			_putchar(i);
-			i++;
-			
+			i++;	
 		}
 		_putchar('\n');
 		a++;
