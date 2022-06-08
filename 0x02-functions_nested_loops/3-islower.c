@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - _islower block
- * @c type int character, can be aplhabet or not
+ * @c: char type character, can be aplhabet or not
  * Description: checks if a character 'c' is lowercase
  * Return: 1 else Return: 0
  */
