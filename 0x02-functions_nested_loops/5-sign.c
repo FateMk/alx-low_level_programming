@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * print_sign - print_sign block
- * Description: prints if n is posive, negative or zero.
- * Return: 1 if greater then zero Return: 0 if it zero 
- * else Return: -1 if less than zero
+ * Description: checks if n is posive, negative or zero.
+ * Return: 1 if greater then zero Return: 0 if it zero else Return: -1 
  */
 int print_sign(int n)
 {
