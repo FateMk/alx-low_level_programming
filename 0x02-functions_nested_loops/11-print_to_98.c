@@ -7,7 +7,7 @@
  */
 void print_to_98(int n)
 {
-	n = 0
+	n = 0;
 	while(n >= 98)
 	{
 		for(n = o; n <= 98; n++)
