@@ -4,7 +4,7 @@
  * Description: prints the 9 times times table
  * starting wwith 0.
  */
-void times _table(void)
+void times_table(void)
 {
 	int a, b;
 	int c;
