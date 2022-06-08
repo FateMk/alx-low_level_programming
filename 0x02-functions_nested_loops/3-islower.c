@@ -2,8 +2,7 @@
 /*
  * _islower - _islower block
  * Description: checks if a character is lowercase
- * Return: 1 
- * else Return: 0
+ * Return: 1 else Return: 0
  */
 int _islower(int c)
 {
