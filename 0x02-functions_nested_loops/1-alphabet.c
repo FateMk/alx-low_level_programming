@@ -17,7 +17,7 @@ void print_alphabet(void)
 }
 int main()
 {
-	print_alphabet();
+	int alpha = print_alphabet();
 	getchar();
 	return (0);
 }
