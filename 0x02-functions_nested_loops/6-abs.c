@@ -4,8 +4,7 @@
  * Description: computes the absolute value of integer
  * Return: 0
  */
-int _abs(int)
+int _abs(int r)
 {
-	int r;
-	r = abs(4);
+	r = _abs(4);
 }
