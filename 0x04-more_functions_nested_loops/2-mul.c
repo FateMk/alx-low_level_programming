@@ -7,8 +7,5 @@
  */
 int mul(int a, int b)
 {
-	int c;
-	/* multiple two integers*/
-	c = a * b;
-	printf("%d\n", c);
+	return(a * b);
 }
