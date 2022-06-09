@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-  int i = 1;
+	int i = 1;
 	int sum = 0;
-  /* loop*/
+	/* loop*/
 	while (i < 1024)
 	{
 		if (i % 3 == 0)
