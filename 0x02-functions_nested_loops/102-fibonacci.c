@@ -15,14 +15,10 @@ int main(void)
 	while (count <= 50)
 	{
 		if (count == 50)
-		{
 			printf("%lu\n", b);
-		}
 		else
-		{
 			printf("%lu, ", b);
-		}
-	       	c = b;
+		c = b;
 		b += a;
 		a = c;
 		count++;
