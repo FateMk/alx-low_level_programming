@@ -6,9 +6,8 @@
 int main(void)
 {
         int i;
-
+        /*testing positive or negative*/
         i = 98;
         positive_or_negative(i);
-
         return (0);
 }
