@@ -3,7 +3,6 @@
  * print_times_table - print_times_table block
  * @n: int type integer
  * Description:print: prints  n times table startimg with zero
- * if n is 15 or less than 0 print nothing
  */
 void print_times_table(int n)
 {
