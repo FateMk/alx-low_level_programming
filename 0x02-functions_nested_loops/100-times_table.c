@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - print_times_table block
+ * print_times_table - function prints n times table
  * @n: int type integer
  * Description:print: prints  n times table startimg with zero
  */
