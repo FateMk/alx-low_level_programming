@@ -23,6 +23,5 @@ int main(void)
 		a = c;
 		count++;
 	}
-
 	return (0);
 }
