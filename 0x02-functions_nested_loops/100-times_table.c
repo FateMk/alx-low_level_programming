@@ -8,7 +8,7 @@
 void print_times_table(int n)
 {
 	int a = 0, b, c;
-
+	/* loops and conditional statements*/
 	if (n > 15 || n < 0)
 		return;
 	while (a <= n)
