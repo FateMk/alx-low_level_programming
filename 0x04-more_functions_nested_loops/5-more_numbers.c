@@ -8,8 +8,8 @@ void more_number(void)
 {
 	int i, j;
 	
-	i = 1;
-	while (i <= 10)
+	i = 0;
+	while (0 < 10)
 	{
 		for (j = 0; j < 15; j++)
 		{
