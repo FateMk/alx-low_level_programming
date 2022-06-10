@@ -2,8 +2,7 @@
 /**
  * print_diagonal - print_diagonal block
  * @n: int tyoe integer
- * Description: draws a diagonal line on terminal
- * diagonal should end with a \n
+ * Description: draws a diagonal line on terminal and should end with a new \n
  * print \n if n is 0 or less
  */
 void print_diagonal(int n)
