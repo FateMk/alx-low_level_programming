@@ -8,13 +8,19 @@
  */
 void print_diagonal(int n)
 {
-	int b;
-	/* for loop in an if statent*/
+	int l, s;
+	/*nested for loop inside if statement*/
 	if (n > 0)
 	{
-		for (b = 0; b < n; b++)
-			_putchar('\');
+		for (l = 0; l < n; l++)
+		{
+			for (s = 0; s < l; s++)
+				_putchar(' ');
+			_putchar('\\');
+			if (l == n - 1)
+				continue;
+			putchar('\n');
+		}
+		putchar('\n');
 	}
-	_putchar('\n');
 }
-
