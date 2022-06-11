@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_number - print_numbers block
+ * print_numbers - print_numbers block
  * Description: prints numner from zero to nine
  * followed by a new line
  * use _putchar twice
