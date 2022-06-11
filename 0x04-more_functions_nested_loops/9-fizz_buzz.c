@@ -6,7 +6,7 @@
  * for the numbers mutiples of both three and five print FizzBuzz
  * Returns: 0
  */
-int main(void)
+int main()
 {
 	int i;
 /* for loop*/
@@ -27,9 +27,7 @@ int main(void)
 			printf("%d", i);
 		}
 		if (i != 100)
-		{
 			printf(" ");
-		}
 	}
 	printf("\n");
 	return (0);
