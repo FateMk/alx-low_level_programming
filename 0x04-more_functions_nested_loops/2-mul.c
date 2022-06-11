@@ -4,6 +4,7 @@
  * @a: int type integer
  * @b: int type integer
  * Description: multiplies two integer
+ * Return: a * b
  */
 int mul(int a, int b)
 {
