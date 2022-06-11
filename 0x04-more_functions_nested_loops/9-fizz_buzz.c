@@ -2,8 +2,7 @@
 /**
  * main - main block
  * Description: prints from one too 100 followed by a new line
- * for multiples of and 5 print Fizz and Buzz respectively
- * for the numbers mutiples of both three and five print FizzBuzz
+ * multiples of and 5 print Fizz and Buzz respectively
  * Returns: 0
  */
 int main()
