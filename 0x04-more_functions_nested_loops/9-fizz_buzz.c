@@ -3,16 +3,14 @@
  * main - main block
  * Description: prints from one too 100 followed by 
  * a new line
- * for multiples of and 5 print Fizz and Buzz
- * for the numbers mutiples of both three and five print
- * FizzBuzz
+ * for multiples of and 5 print Fizz and Buzz respectively
+ * for the numbers mutiples of both three and five print FizzBuzz
  * Returns: 0
  */
 int main(void)
 {
 	int i;
-	int j , k;
-
+/* for loop*/
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0){
