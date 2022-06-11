@@ -7,7 +7,7 @@
 void more_number(void)
 {
 	int i, j;
-	
+	/* nested loops*/
 	i = 0;
 	while (0 < 10)
 	{
