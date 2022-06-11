@@ -2,6 +2,7 @@
 /**
  * more_numbers - more_number block
  * Description: prints numbers from 0 to 14 ,ten times followed by a new line
+ * only allowed to use _putchar three times
  */
 void more_number(void)
 {
@@ -12,11 +13,11 @@ void more_number(void)
 	{
 		for (j = 0; j < 15; j++)
 		{ 
-			/*if (j > 9)
-				_putchar(j / 10 + '0');*/
+			if (j > 9)
+				_putchar(j / 10 + '0');
 			_putchar(j % 10 + '0');
 		}
-		i++;
 		_putchar('\n');
+		i++;
 	}
 }
