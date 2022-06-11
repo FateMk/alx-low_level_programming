@@ -7,25 +7,23 @@
  */
 void print_square(int size)
 {
-	int a, b;
-	/* all side of a square are equal*/
-	if (size > 0)
-	{
-		for (a = 0; a < size; a++)
-		{
-			b = 0;
-			while (b < size)
-			{
-				_putchar('#');
-				b++;
-			}
-			if (b == size -1)
-				continue;
-			_putchar('\n');
-		}
-	}
-	else
-	{
+	int x, y;
+
+	x = 0;
+
+	if (size < 1)
 		_putchar('\n');
+
+	while (x < size)
+	{
+		y = 0;
+		while (y < size)
+		{
+			_putchar('#');
+			y++;
+		}
+		_putchar('\n');
+		x++;
 	}
 }
+
