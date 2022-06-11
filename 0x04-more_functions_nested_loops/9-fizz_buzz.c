@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: prints from one too 100 followed by a new line
- * multiples of and 5 print Fizz and Buzz respectively
+ * printf fizz for multiples of 3 an buzz for multiples of five
  * Returns: 0
  */
 int main(void)
