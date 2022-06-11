@@ -9,13 +9,15 @@ void more_number(void)
 	int i, j;
 	/* nested loops*/
 	i = 0;
-	while (0 < 10)
+	while (i < 10)
 	{
-		for (j = 0; j < 15; j++)
-		{
+		j = 0;
+		while (j < 15)
+		{ 
 			if (j > 9)
 				_putchar(j / 10 + '0');
 			_putchar(j % 10 + '0');
+			j++;
 		}
 		i++;
 		_putchar('\n');
