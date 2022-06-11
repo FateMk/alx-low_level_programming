@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: prints from zero too 100 followed by 
+ * Description: prints from one too 100 followed by 
  * a new line
  * for multiples of and 5 print Fizz and Buzz
  * for the numbers mutiples of both three and five print
