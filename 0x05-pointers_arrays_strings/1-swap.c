@@ -1,5 +1,6 @@
 #include "main.h"
 /**
+ * swap_int - swap_int block
  * @a: pointer type integer
  * @b: pointer type integer
  * Description: swaps values of two integers
