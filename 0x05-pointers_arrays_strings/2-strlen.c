@@ -7,8 +7,9 @@
  */
 int _strlen(char *s)
 {
-	int c;
-/* for loop to the end of te string*/
-	for (c = 0; s[c] != '\0'; c++);
-	return (c);
+	int i;
+	/* for loop to the end of te string*/
+	while (*(s+i) != '\0')
+		i++;
+	return (i);
 }
