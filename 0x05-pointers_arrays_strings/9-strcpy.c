@@ -3,9 +3,11 @@
  * _strcpy - _strcpy block
  * @dest: pointer type character
  * @src: pointer type character
- * Description: copies the string 
+ * Description: Copy the string pointed to by pointer `src` to
+ * the buffer pointed to by `dest`
+ * Return: Pointer to `dest`
  */
-char *_stscpy(char *dest, cahr *src)
+char *_stscpy(char *dest, char *src)
 {
 	int i;
 
