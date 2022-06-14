@@ -5,7 +5,7 @@
  * Description: prints every string character starting
  * with the first character followed by a new line
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int i , j;
 
