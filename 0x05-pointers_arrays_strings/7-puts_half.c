@@ -8,17 +8,16 @@
  */
 void puts_half(char *str)
 {
-	int i , n;
-	
+	int i, n;
+	/* for loop to upto length of a string*/
 	for (i = 0; str[i] != '\0'; i++)
 	{
 	}
 	n = (i - 1) / 2;
 	i = n;
-	while(i > n)
+	while (i > n)
 	{
-		if(i % 2 != 0)
-			_putchar(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
 	_putchar('\n');
