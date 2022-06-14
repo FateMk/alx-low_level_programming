@@ -10,7 +10,7 @@ void print_rev(char *s)
        	int i, j;
 	char *start_s, *end_s, rev;
 	
-	j = _strlen(s);/*for loop to loop through the string to the right*/
+	j =  _strlen(s);/*for loop to loop through the string to the right*/
 	start_s = s;
 	end_s = s;
 	for(i = 0; i < j- 1; i++)
@@ -22,8 +22,10 @@ void print_rev(char *s)
 		rev = *end_s;
 		*end_s = *start_s;
 		*start_s = rev;
+		_putchar(s[i]);
         /*update pointer positions*/
 	       	start_s++;
 		end_s--;
 	}
+	_putchar('\n');
 }
