@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /**
  * print_array - print_array block
  * @a: pointer type integer
@@ -11,15 +11,34 @@
  */
 void print_array(int *a, int n)
 {
-	int i;
+	int i = 0;
 	/*looping through the array*/
-	for (i = 0; i < n + 1; i++)
+//	for (n--; n >= 0; n--, i++)
+
+	for(i = 0; i >= 0; i++)
 	{
-		printf("%d",a[i]);
-		if (n > 0)
+		
+		while (n >= 0)
 		{
-			printf(", ");
+			printf("%d",a[i]);
+			if (n > 0 )
+			{
+				printf(", ");
+			}
+			n++;
 		}
 	}
 	printf("\n");
+}
+int main(void)
+{
+    int array[5];
+
+    array[0] = 98;
+    array[1] = 402;
+    array[2] = -198;
+    array[3] = 298;
+    array[4] = -1024;
+    print_array(array, 5);
+    return (0);
 }
