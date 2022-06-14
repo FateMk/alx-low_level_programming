@@ -1,4 +1,5 @@
-#include <main.h>
+#include "main.h"
+#include <stdio.h>
 /**
  * print_array - print_array block
  * @a: pointer type integer
