@@ -7,25 +7,12 @@
  */
 void print_rev(char *s)
 {
-       	int i, j;
-	char *start_s, *end_s, rev;
-	
-	j =  _strlen(s);/*for loop to loop through the string to the right*/
-	start_s = s;
-	end_s = s;
-	for(i = 0; i < j- 1; i++)
-		end_s++;
-    /*swap char from start to end */
-    /*index using start_s and end_s*/
-	for(i = 0; i < j/2; i++)
+	int i;
+	/* loops through the string an outputs its length*/
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		rev = *end_s;
-		*end_s = *start_s;
-		*start_s = rev;
+	}/*Reversing the string*/
+	for (i--; i >= 0; i--)
 		_putchar(s[i]);
-        /*update pointer positions*/
-	       	start_s++;
-		end_s--;
-	}
 	_putchar('\n');
 }
