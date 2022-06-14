@@ -7,7 +7,7 @@
  * the buffer pointed to by `dest`
  * Return: Pointer to `dest`
  */
-char *_stscpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
