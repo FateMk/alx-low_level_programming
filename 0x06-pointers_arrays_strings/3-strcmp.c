@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _strcmp - _strcmp block
- * @s1: pointer type character
- * @s2: pointer type character
- * Description: compares two strings 
- * should work exactly like strcmp
+ * _strcmp - _strcmp block.
+ * @s1: pointer type character.
+ * @s2: pointer type character.
+ * Description: compares two strings and should work exactly like strcmp().
  */
 int _strcmp(char *s1, char *s2)
 {
