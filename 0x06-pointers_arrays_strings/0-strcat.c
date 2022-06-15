@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * _strcat - _strcat block
- * @dest: pointer type character
- * @src: pointer type character
- * Description: concatenates two strings
- * Appends the src string to the dest string
- * Overwrites the terminating null byte(\o) at the end of dest
- * Return: dest
+ * _strcat - _strcat block.
+ * @dest: pointer type string.
+ * @src: pointer type string.
+ * Description: concatenates two strings.
+ * Appends the src string to the dest string.
+ * Overwrites the terminating null byte(\o) at the end of dest.
+ * Return: dest.
  */
 char *_strcat(char *dest, char *src)
 {
