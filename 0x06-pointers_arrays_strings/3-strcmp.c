@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcmp - _strcmp block.
  * @s1: pointer type character.
@@ -6,6 +7,7 @@
  * Description: compares two strings and should work exactly like strcmp.
  * Return: 0 
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	int i;
