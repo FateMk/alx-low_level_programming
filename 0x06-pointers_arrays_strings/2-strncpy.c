@@ -1,10 +1,11 @@
 #include "main.h"
 /**
  * _strncpy - _strncpy block
- * @dest: string
- * @src: string
+ * @dest: pointer type string
+ * @src: pointer type string
  * @n: int type integer
- * Description: copies a string
+ * Descripti:on: copies a string
+ * Return:d est
  */
 char *_strncpy(char *dest, char *src, int n)
 {
