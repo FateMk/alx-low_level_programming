@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * cap_string - function returning  pointer to a char
+ * cap_string - cap_string block
  * @s: pointer type character
  * Description: capitalizinging all words of a string
- * Return: s.
+ * Return: Always 0.
  */
 char *cap_string(char *s)
 {
