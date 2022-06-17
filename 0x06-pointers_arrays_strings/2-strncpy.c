@@ -5,7 +5,7 @@
  * @src: pointer type string
  * @n: int type integer
  * Descripti:on: copies a string
- * Return:d est
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
