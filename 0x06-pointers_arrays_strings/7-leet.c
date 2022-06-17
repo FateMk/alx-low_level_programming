@@ -4,6 +4,7 @@
  * leet - leet block
  * @str: string type pointer
  * Description: encodes a string into 1337
+ * Return: str
  */
 
 char *leet(char *str)
