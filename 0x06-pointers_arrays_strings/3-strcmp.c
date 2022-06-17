@@ -4,7 +4,7 @@
  * @s1: pointer type character.
  * @s2: pointer type character.
  * Description: compares two strings and should work exactly like strcmp.
- * Return: 0 
+ * Return: 0 if s1 == s2 , < 0 if s1 < s2, > 0 if s1 > s2.
  */
 int _strcmp(char *s1, char *s2)
 {
