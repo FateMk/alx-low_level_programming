@@ -3,8 +3,8 @@
 /**
  * cap_string - cap_string block
  * @s: pointer type character
- * Description: capitalizinging all words of a string
- * Return: Always 0.
+ * Description: capitalizes all words of a string
+ * Return: s.
  */
 
 char *cap_string(char *s)
