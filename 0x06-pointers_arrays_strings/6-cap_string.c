@@ -9,7 +9,7 @@ char *cap_string(char *s)
 {
 	int i, j, count;
 	i = count = 0;
-
+	/* for loop*/
 	for (i = 0; s[i] != '\0'; i++)
 		;
 	for (j = 0; j < i; j++)
