@@ -12,7 +12,7 @@ char *cap_string(char *s)
 
 	for (i = 0, t = 0; s[i] != '\0'; i++)
 	{
-		if (str[0] > 96 && str[0] < 123)
+		if (s[0] > 96 && s[0] < 123)
 			t = 1;
 		for (j = 0; n[j] != '\0'; j++)
 		{
@@ -28,7 +28,7 @@ char *cap_string(char *s)
 				t = 0;
 			}
 			else if (s[i] > 64 && s[i] < 91)
-				trigger = 0;
+				t = 0;
 			else if (s[i] > 47 && s[i] < 58)
 				t = 0;
 		}
