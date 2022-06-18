@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /*
  * print_square - print_square block
  * @size: int type integer
