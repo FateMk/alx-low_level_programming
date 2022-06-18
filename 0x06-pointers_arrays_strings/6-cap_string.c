@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * cap_string - capitalizes all words of a string
- * @s: pointer type character
- * Return: s.
+ * @str: pointer type character
+ * Return: str.
  */
 char *cap_string(char *str)
 {
@@ -21,23 +21,7 @@ char *cap_string(char *str)
 			else
 				count++;
 		}
-		if (str[j] == '!' || str[j] == '"' || str[j] == '(' || str[j] == ')')
-		{
-			count = 0;
-		}
-		else if (str[j] == ',' || str[j] == '.' || str[j] == '{' || str[j] == '}')
-		{
-			count = 0;
-		}
-		else if (str[j] == ';' || str[j] == '?' || str[j] == '\n')
-		{
-			count = 0;
-		}
-		else if (str[j] == '\t')
-		{
-			count = 0;
-		}
-		else if (str[j] == ' ')
+		if (str[j] == '!' || str[j] == '"' || str[j] == '(' || str[j] == ')' || str[j] == ',' || str[j] == '.' || str[j] == '{' || str[j] == '}' || str[j] == ';' || str[j] == '?' || str[j] == '\n' || str[j] == '\t' || str[j] == ' ')
 		{
 			count = 0;
 		}
