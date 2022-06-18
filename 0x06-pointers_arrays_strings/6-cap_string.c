@@ -6,24 +6,32 @@
  */
 char *cap_string(char *s)
 {
-	int i, j, count;
-	/* for loop*/
-	i = count = 0;
-	for (i = 0; s[i] != '\0'; i++)
-		;
-	for (j = 0; j < i; j++)
+	int i, j;
+	int t;
+	char n[] = ",;.!?(){}\n\t\" ";
+
+	for (i = 0, t = 0; s[i] != '\0'; i++)
 	{
-		if (count == 0)
+		if (str[0] > 96 && str[0] < 123)
+			t = 1;
+		for (j = 0; n[j] != '\0'; j++)
 		{
-			if (s[j] >= 'a' && s[j] <= 'z')
-				s[j] = s[j] - 32;
-			else
-				count++;
+			if (n[j] == str[i])
+				t = 1;
 		}
-		if (s[j] == '!' || s[j] == '"' || s[j] == '(' || s[j] == ')' || s[j] == ',' || s[j] == '.' || s[j] == '{' || s[j] == '}' || s[j] == ';' || s[j] == '?' || s[j] == '\n' || s[j] == '\t' || s[j] == ' ')
-			count = 0;
-		else
-			count++;
+
+		if (t)
+		{
+			if (s[i] > 96 && s[i] < 123)
+			{
+				s[i] -= 32;
+				t = 0;
+			}
+			else if (s[i] > 64 && s[i] < 91)
+				trigger = 0;
+			else if (s[i] > 47 && s[i] < 58)
+				t = 0;
+		}
 	}
 	return (s);
 }
