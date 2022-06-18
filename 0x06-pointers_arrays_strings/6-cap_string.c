@@ -6,12 +6,11 @@
  */
 char *cap_string(char *str)
 {
-	int i , count;
-	i = count = 0;
+	int i, count;
 	
+	i = count = 0;
 	while (str[i] != '\0')
 		i++;
-	
 	for (j = 0; j < i; j++)
 	{
 		if (count == 0)
