@@ -7,7 +7,6 @@
 char *cap_string(char *str)
 {
 	int i;
-	
 	i = count = 0;
 	
 	while (str[i] != '\0')
@@ -23,17 +22,29 @@ char *cap_string(char *str)
 				count++;
 		}
 		if (str[j] == '!' || str[j] == '"' || str[j] == '(' || str[j] == ')')
+		{
 			count = 0;
+		}
 		else if (str[j] == ',' || str[j] == '.' || str[j] == '{' || str[j] == '}')
+		{
 			count = 0;
+		}
 		else if (str[j] == ';' || str[j] == '?' || str[j] == '\n')
+		{
 			count = 0;
+		}
 		else if (str[j] == '\t')
+		{
 			count = 0;
+		}
 		else if (str[j] == ' ')
+		{
 			count = 0;
+		}
 		else
+		{
 			count++;
+		}
 	}
 	return (str);
 }
