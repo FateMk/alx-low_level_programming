@@ -1,20 +1,18 @@
 #include "main.h"
 /**
- * string_toupper - function returning apointer to a char 
- * @str: pointer type character
- * Description: changes all lowercase letter to uppercase
- * Return: str
- */
-char *string_toupper(char *str)
+*reverse_array - check the code for Holberton School students.
+*@a: an array of integers
+*@n: the number of elements to swap
+*Return: nothing.
+*/
+void reverse_array(int *a, int n)
 {
-	int i;
-	/*looping through thr string*/
-	for (i = 0; str[i] != '\0'; i++)
-	{	
-		if (str[i] >= 'a' && str[i] <= 'z')
-		{
-			str[i] = str[i] - 32;
-		}
-	}
-	return (str);
+int i, temp;
+n--;
+for (i = 0; i < n; i++, n--)
+{
+temp = a[i];
+a[i] = a[n];
+a[n] = temp;
+}
 }
