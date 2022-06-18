@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * _strncpy - _strncpy block.
+ * _strncpy - copies a string src to dest upto n characters.
  * @dest: pointer type string.
  * @src: pointer type string.
  * @n: int type integer.
- * Description: copies a string src to dest upto n characters.
  * Return: dest.
  */
 char *_strncpy(char *dest, char *src, int n)
