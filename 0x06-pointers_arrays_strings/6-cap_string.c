@@ -4,34 +4,36 @@
  * @s: pointer type character
  * Return: s.
  */
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
-	int i, j;
-	int t;
-	char n[] = ",;.!?(){}\n\t\" ";
-
-	for (i = 0, t = 0; s[i] != '\0'; i++)
+	int i;
+	
+	i = count = 0;
+	
+	while (str[i] != '\0')
+		i++;
+	
+	for (j = 0; j < i; j++)
 	{
-		if (s[0] > 96 && s[0] < 123)
-			t = 1;
-		for (j = 0; n[j] != '\0'; j++)
+		if (count == 0)
 		{
-			if (n[j] == str[i])
-				t = 1;
+			if (str[j] >= 'a' && str[j] <= 'z')
+				str[j] = str[j] - 32;
+			else
+				count++;
 		}
-
-		if (t)
-		{
-			if (s[i] > 96 && s[i] < 123)
-			{
-				s[i] -= 32;
-				t = 0;
-			}
-			else if (s[i] > 64 && s[i] < 91)
-				t = 0;
-			else if (s[i] > 47 && s[i] < 58)
-				t = 0;
-		}
+		if (str[j] == '!' || str[j] == '"' || str[j] == '(' || str[j] == ')')
+			count = 0;
+		else if (str[j] == ',' || str[j] == '.' || str[j] == '{' || str[j] == '}')
+			count = 0;
+		else if (str[j] == ';' || str[j] == '?' || str[j] == '\n')
+			count = 0;
+		else if (str[j] == '\t')
+			count = 0;
+		else if (str[j] == ' ')
+			count = 0;
+		else
+			count++;
 	}
-	return (s);
+	return (str);
 }
