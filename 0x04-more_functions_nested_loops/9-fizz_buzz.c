@@ -1,8 +1,7 @@
 #include <stdio.h>
 /**
- * main - main block
- * Description: prints from one too 100 followed by a new line
- * print fizz for multiples of 3 an buzz for multiples of five
+ * main -  prints from one too 100 followed by a new line
+ * Description: print fizz for multiples of 3 an buzz for multiples of five
  * Returns: 0
  */
 int main(void)
