@@ -1,12 +1,10 @@
 #include "main.h"
-
 /**
  * cap_string - cap_string block
  * @s: pointer type character
  * Description: capitalizes all words of a string
  * Return: s.
  */
-
 char *cap_string(char *s)
 {
 	int i, j, count;
