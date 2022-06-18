@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * infinite_add - infinite add block
+ * infinite_add - infinite_add block
  * @n1: number to be add
  * @n2: number to be add
  * @r: buffer that the function will use to store result
  * @size_r: buffer size
  * Description: adds two number.
- * Return: pointer of the result
+ * Return: result
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int i = 0, j = 0, k, l = 0, f, s, d = 0;
-
+	inint i = 0, j = 0, k, l = 0, f, s, d = 0;
+	
 	while (n1[i] != '\0')
 		i++;
 	while (n2[j] != '\0')
 		j++;
-
+	
 	if (i > j)
 		l = i;
 	else
@@ -24,12 +24,12 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (l + 1 > size_r)
 		return (0);
 	r[l] = '\0';
-
+	
 	for (k = l - 1 ; k >= 0 ; k--)
 	{
 		i--;
 		j--;
-
+		
 		if (i >= 0)
 			f = n1[i] - '0';
 		else
