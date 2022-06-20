@@ -4,7 +4,7 @@
  * @s: pointer type string
  * @c: character
  * Description: locates a character in a string.
- * return: null  if charcter is not found
+ * Return:pointer to first occurrence of char `c` and null  if charcter is not found
  */
 char *_strchr(char *s, char c)
 {
