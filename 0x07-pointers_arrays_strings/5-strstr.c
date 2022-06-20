@@ -3,8 +3,8 @@
  * _strstr - _strstr block
  * @haystack: pointer type character
  * @needle: pointer type character
- * Description: loctas a substring
- * Return: 
+ * Description: locates a substring
+ * Return: Pointer to beginning of substring, or NULL if not found.
  */
 char *_strstr(char *haystack, char *needle)
 {
