@@ -3,7 +3,7 @@
  * _memcpy - _memcpy block
  * @dest: pointer type character
  * @src: pointer type character
- * n: number of bytes to copied
+ * @n: number of bytes to copied
  * Description: copies memory are
  * Return: dest
  */
