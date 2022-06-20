@@ -5,7 +5,7 @@
  * @b: char type character
  * @s: pointer type string
  * Description: fill memory with a constant value
- * Returns: s
+ * Returns: Pointer to memory area `s`
  */
 char *_memset(char *s, char b, unsigned int n)
 {
