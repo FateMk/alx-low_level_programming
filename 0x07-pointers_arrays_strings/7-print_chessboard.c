@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_chessboard - print_chessboard block
  * @a: point type character
@@ -10,8 +11,7 @@ void print_chessboard(char (*a)[8])
 
 	for (col = 0; col < 8; col++)
 	{
-		row = 0;
-		for (; row < 8; row++)
+		for (row = 0; row < 8; row++)
 		{
 			_putchar(a[col][row]);
 		}
