@@ -4,7 +4,7 @@
  * @s: pointer type character
  * @accept: pointer type character
  * Description: gets the length of a prefix substring
- * Return: s
+ * Return: number of bytes in  s
  */
 unsigned int _strspn(char *s, char * accept)
 {
@@ -13,8 +13,7 @@ unsigned int _strspn(char *s, char * accept)
 	int k;
 
 	i = 0;
-	j = 0;
-	for (; s[j] != '\0'; j++)
+	for (j = 0; s[j] != '\0'; j++)
 	{
 		k = 0;
 		while (accept[k] != '\0')
