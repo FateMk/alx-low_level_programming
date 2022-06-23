@@ -4,7 +4,7 @@ int square(int a, int b);
 /**
  * _sqrt_recursion - _sqrt_recursion block
  * @n: int type integer
- * Returns: If no natural square root, return -1. Else return natural
+ * Returns: -1 if no natural square root else return natural
  * square root
  */
 int _sqrt_recursion(int n)
