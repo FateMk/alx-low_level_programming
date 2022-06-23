@@ -4,7 +4,7 @@
  * @n: integer
  * Returns: -1 if n doesn't have a square root
  */
-
+int sqrt(int a, int b);
 int _sqrt_recursion(int n)
 {
 	return (sqrt2(n, 1));
