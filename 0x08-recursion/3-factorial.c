@@ -2,13 +2,14 @@
 /**
  * factorial - factorial block
  * @n: integer
- * Decription: -1 if n is less than 0 else  return 1
+ * Return: -1 if n is less than 0 else 1 n izs equal to 1
+ * 
  */
 int factorial(int n)
 {
 	if (n == 1)
 		return (1);
-	else if (n < 1)
+	else if (n < 0)
 		return (-1);
 	return (n * factorial(n - 1));
 }
