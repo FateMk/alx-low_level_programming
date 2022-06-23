@@ -9,8 +9,8 @@ int pali(char *s, int i);
 int is_palindrome(char *s)
 {
 	int len;
-	len = _strlen(s) - 1;
 	
+	len = _strlen(s) - 1;
 	return (pali(s, --len));
 }
 /**
@@ -22,16 +22,12 @@ int is_palindrome(char *s)
 int pali(char *s, int i)
 {
 	if (*s == *(s + i))
-	{
-		if(i <= 0)
+		if (i <= 0)
 			return (1);
 		else
-			return (pali(s + 1, i - 2));	
-	}
+			return (pali(s + 1, i - 2));
 	else
-	{
-		return 0;
-	}
+		return (0);
 }
 /**
  * _strlen - gets the length of string
