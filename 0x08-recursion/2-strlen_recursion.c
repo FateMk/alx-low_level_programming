@@ -2,7 +2,7 @@
 /**
  * _strlen_recursion - _strlen_recursion block
  * @s: pointer type character
- * Return: 0 if s size is null 
+ * Return: length of the string
  */
 int _strlen_recursion(char *s)
 {
