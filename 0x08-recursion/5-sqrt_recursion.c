@@ -1,4 +1,6 @@
 #include "main.h"
+
+int square(int a, int b);
 /**
  * _sqrt_recursion - _sqrt_recursion block
  * @n: int type integer
