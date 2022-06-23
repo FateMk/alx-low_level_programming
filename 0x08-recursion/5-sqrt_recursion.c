@@ -4,10 +4,10 @@
  * @n: integer
  * Returns: -1 if n doesn't have a square root
  */
-int sqrt(int a, int b);
+int square(int a, int b);
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	return (square(n, 1));
 }
 
 /**
@@ -17,13 +17,13 @@ int _sqrt_recursion(int n)
  * Description: looks for a square to a number
  */
 
-int sqrt(int a, int b)
+int square(int a, int b)
 {
 	if (b * b == a)
 		return (b);
 	else if (b * b > a)
 		return (-1);
-	return (sqrt(a, b + 1));
+	return (square(a, b + 1));
 }
 
 
