@@ -5,7 +5,6 @@
  * Returns: -1 if n doesn't have a square root
  */
 int square(int a, int b);
-
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
@@ -17,7 +16,6 @@ int _sqrt_recursion(int n)
  * @b: integer
  * Return: b if square root to a is b else -1 if a has no square root
  */
-
 int square(int a, int a)
 {
 	if (b * b == a)
@@ -26,5 +24,3 @@ int square(int a, int a)
 		return (-1);
 	return (square(a, b + 1));
 }
-
-
