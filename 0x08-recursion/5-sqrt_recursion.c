@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _sqrt_recursion - _sqrt_recursion block
- * @n: integer
+ * @n: int type integer
  * Returns: -1 if n doesn't have a square root
  */
 int square(int a, int b);
@@ -12,8 +12,8 @@ int _sqrt_recursion(int n)
 
 /**
  * square -  square block
- * @a: integer
- * @b: integer
+ * @a: int type integer
+ * @b: int type integer
  * Return: b if square root to a is b else -1 if a has no square root
  */
 int square(int a, int b)
