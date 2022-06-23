@@ -4,7 +4,6 @@
  * @n: int type integer
  * Returns: -1 if n doesn't have a square root
  */
-int square(int a, int b);
 int _sqrt_recursion(int n)
 {
 	return (square(n, 1));
