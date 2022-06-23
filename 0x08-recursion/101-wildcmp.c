@@ -14,7 +14,7 @@ int wildcmp(char *s1, char *s2);
  */
 int strlen_n(char *str)
 {
-	int len = 0, i= 0;
+	int len = 0, i = 0;
 
 	if (*(str + i))
 	{
@@ -29,7 +29,7 @@ int strlen_n(char *str)
 }
 
 /**
- * iterate_wild - Iterates through a string located at a wildcard
+ * iterate_w - Iterates through a string located at a wildcard
  *                until it points to a non-wildcard character.
  * @wstr: The string to be iterated through.
  */
