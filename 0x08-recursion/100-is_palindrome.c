@@ -9,7 +9,7 @@ int pali(char *s, int i);
 int is_palindrome(char *s)
 {
 	int len;
-	
+	/* palindrome function*/
 	len = _strlen(s) - 1;
 	return (pali(s, --len));
 }
