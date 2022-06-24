@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - main block
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 	int mul;
 	
 	a = atoi(argv[1]);
-	b = atoi(argv[1]);
+	b = atoi(argv[2]);
 	if (argc != 3)
 	{
 		printf("Error\n");
