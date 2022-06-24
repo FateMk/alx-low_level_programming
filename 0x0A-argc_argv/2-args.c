@@ -5,7 +5,7 @@
  * @argc: counter
  * @argv: array name
  * Description: prints all argumets that it receives
- * Return: 0;
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
