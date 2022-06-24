@@ -4,10 +4,10 @@
  * main - main block
  * @argc: counter
  * @argv: array name
- * Description prits all argumets that it receives
+ * Description: prints all argumets that it receives
  * Return: 0;
  */
-int main(int argc, cahr *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 	
