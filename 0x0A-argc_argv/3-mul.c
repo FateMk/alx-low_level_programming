@@ -11,7 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b, mul;
-	
+	/*converting astring to an integer*/
 	if (argc != 3)
 	{
 		printf("Error\n");
