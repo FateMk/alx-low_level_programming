@@ -12,7 +12,8 @@ char *_strdup(char *str)
 {
 	int j, size = 0;
 	static char *s;
-	/*trdup() is used to duplicate a string. It returns a pointer to null-terminated byte string*/
+	/*trdup() is used to duplicate a string. It returns a
+	pointer to null-terminated byte string*/
 	if (str == NULL)
 		return (NULL);
 	for (j = 0; str[j]; j++)
