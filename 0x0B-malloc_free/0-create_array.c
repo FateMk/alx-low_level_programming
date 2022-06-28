@@ -7,18 +7,20 @@
  * Return: Null if size is equal to 0 or if it fails
  *        else return a pointer to an array
  */
-char *create_array(unsigned int size, char c)
+char *craete_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *j;
 
 	if (size == 0)
-		return (NULL);
-	j = malloc(sizeof(char) * size);
+		return NULL;
+	j = malloc(size *sizeof(*j));
 	if (j == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
+	{
 		j[i] = c;
+	}
 	return (j);
 }
 
