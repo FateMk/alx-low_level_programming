@@ -14,7 +14,7 @@ char *craete_array(unsigned int size, char c)
 
 	if (size == 0)
 		return NULL;
-	j = malloc(size *sizeof(*j));
+	j = malloc(sizeof(char) * size);
 	if (j == NULL)
 		return (NULL);
 	for (i = 0; i < size; i++)
