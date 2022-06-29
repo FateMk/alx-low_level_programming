@@ -7,7 +7,7 @@
  * Return: Null if size is equal to 0 or if it fails
  *        else return a pointer to an array
  */
-char *craete_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *j;
@@ -23,5 +23,3 @@ char *craete_array(unsigned int size, char c)
 	}
 	return (j);
 }
-
-
