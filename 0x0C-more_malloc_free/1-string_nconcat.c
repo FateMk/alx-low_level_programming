@@ -1,7 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-
-int _strlen(char *s);
 /**
  * string_nconcat - concatenates two string
  * @s1: pointer type characcter
