@@ -28,7 +28,7 @@ int _strlen(char *str)
  */
 char *_strcopy(char *dest, char *src)
 {
-	int j = 0;
+	int j;
 
 	for (j = 0; src[j]; j++)
 		dest[j] = src[j];
