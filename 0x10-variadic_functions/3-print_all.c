@@ -6,7 +6,7 @@
  */
 void print_all(const char * const format, ...)
 {
-  va_list valist;
+	va_list valist;
 	char *temp_s;
 	int i = 0, orders;
 
