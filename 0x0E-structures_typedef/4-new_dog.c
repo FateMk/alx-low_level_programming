@@ -1,42 +1,65 @@
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 /**
- * new_dog - Creates a new dog
- * @name: New name of dog
- * @owner: New name of owner
- * @age: New dog age
- * Return: Pointer to new dog struct
- * NULL if the function fails
+ * my_strlen - finds string length in order to malloc properly
+ * @str: input string
+ * Return: string length unsigned integer
+ */
+unsigned int my_strlen(char *str)
+{
+	unsigned int i = 0;
+
+	while (*(str + i) != '\0')
+		i++;
+	return (i);
+}
+/**
+ * my_strcpy - copies string
+ * @to: pointer to new string
+ * @from: pointer to string to copy
+ * Return: void
+ */
+void my_strcpy(char *to, char *from)
+{
+	unsigned int i, len = my_strlen(from);
+
+	for (i = 0; i <= len; i++)
+		to[i] = from[i];
+}
+/**
+ * new_dog - creates new type of struct dog
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
+ * Return: pointer to the type of struct dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-int i, nameLen = 0, ownLen = 0;
-dog_t *newDog;
-newDog = malloc(sizeof(dog_t));
-if (newDog == NULL)
-{
-free(newDog);
-return (NULL);
-}
-for (i = 0; name[i] != '\0'; i++)
-nameLen++;
-newDog->name = malloc(nameLen + 1);
-if (newDog->name == NULL)
-{
-free(newDog->name), free(newDog);
-return (NULL);
-}
-for (i = 0; owner[i] != '\0'; i++)
-ownLen++;
-newDog->owner = malloc(ownLen + 1);
-if (newDog->owner == NULL)
-{
-free(newDog->owner), free(newDog->name), free(newDog);
-return (NULL);
-}
-newDog->age = age;
-for (i = 0; i < nameLen; i++)
-newDog->name[i] = name[i];
-newDog->name[i] = '\0';															for (i = 0; i < ownLen; i++)														newDog->owner[i] = owner[i];
-newDog->owner[i] = '\0';														return (newDog);
+	unsigned int name_len = my_strlen(name), owner_len = my_strlen(owner);
+	dog_t *snoop_dogg;
+
+	snoop_dogg = malloc(sizeof(dog_t));
+	if (snoop_dogg)
+	{
+		snoop_dogg->name = malloc(sizeof(char) * (name_len + 1));
+		if (snoop_dogg->name)
+		{
+			snoop_dogg->owner = malloc(sizeof(char) * (owner_len + 1));
+			if (snoop_dogg->owner)
+			{
+				my_strcpy(snoop_dogg->name, name);
+				snoop_dogg->age = age;
+				my_strcpy(snoop_dogg->owner, owner);
+				return (snoop_dogg);
+			}
+			else
+			{
+				free(snoop_dogg->name);
+				free(snoop_dogg);
+			}
+		}
+		else
+			free(snoop_dogg);
+	}
+	return (NULL);
 }
