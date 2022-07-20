@@ -12,7 +12,7 @@
   listint_t *new_head;
   
   new_head = malloc(sizeof(listint_t));
-  if (new_node == NULL)
+  if (new_head == NULL)
   {
    return (NULL);
   }
