@@ -7,7 +7,7 @@
  {
     int i;
     
-    while(h != NULL)
+    while (h)
     {
         h = h->next;
         i++;
