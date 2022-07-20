@@ -10,14 +10,23 @@
   listint_t *last, *new_last;
   
   new_last = malloc(sizeof(listint_t));
+  if (new_last == NULL)
+  {
+   return (NULL);
+  }
   new_last->n = n;
   new_last->next = NULL;
   last = *head;
-  while (last->next != NULL)
-  {
-      last = last->next;
+  if (!*head)
+		*head = new_last;
+  else
+	 {
+   while (last->next != NULL)
+   {
+       last = last->next;
+   }
+   last->next = new_last;
   }
-  last->next = new_last;
   return (new_last);
  }
  
