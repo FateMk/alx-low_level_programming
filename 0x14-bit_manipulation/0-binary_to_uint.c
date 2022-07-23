@@ -17,7 +17,7 @@ int _strlen(const char *s);
     return (0);
    if (b[i] == '1')
     mul += dcimal;
-    dcimal *= 2;
+   dcimal *= 2;
   }
    return (mul);
  }
