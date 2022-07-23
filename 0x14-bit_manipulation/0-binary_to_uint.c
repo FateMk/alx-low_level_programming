@@ -7,21 +7,29 @@ int _strlen(const char *s);
  * Return: converted number
  */
  unsigned int binary_to_uint(const char *b)
- {
-  unsigned int total, power;
-	 int len;
-
- 	if (b == NULL)
-   return (0);
-	 for (len = 0; b[len]; len++)
-	 {
-   if (b[len] != '0' && b[len] != '1')
-    return (0);
-  }
-  for (power = 1, total = 0, len--; len >= 0; len--, power *= 2)
   {
-   if (b[len] == '1')
-    total += power;
+   int i, dcimal = 1, mul = 0;
+
+   int len = _strlen(b);
+   for (i = (len - 1) ; i >= 0; i--)
+   {
+    if (b[i] != '0' && b[i] != '1')
+    return (0);
+    if (b[i] == '1')
+    mul += dcimal;
+    dcimal *= 2;
+   }
+   return (mul);
+ }
+ int _strlen(const char *s)
+ {
+  int i;
+
+  if (s == 0)
+  return (0);
+  while (s[i] != '\0')
+  {
+    i++;
   }
-  return (total)
-  }
+  return (i);
+ }
