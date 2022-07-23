@@ -7,12 +7,15 @@
  */
  unsigned int flip_bits(unsigned long int n, unsigned long int m)
  {
-    int z, count = 0;
+  unsigned long int diff;
+	 int counter;
 
-     for (z = n ^ m; z !=  0; z = z >> 1)
-     {
-        count += z & 1;
-     }
-     return count;
+	 diff = n ^ m;
+	 counter = 0;
+	 while (diff)
+	 {
+   counter++;
+		 diff &= (diff - 1);
+  }
+  return (counter);
  }
- 
