@@ -12,7 +12,7 @@
  {
 	 ssize_t ptr, r, w;
          char *buffer;
-         
+         /*comments*/
          if (filename == NULL)
 		 return (0);
          buffer = malloc(sizeof(char) * letters);
