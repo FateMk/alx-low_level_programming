@@ -8,7 +8,7 @@ size_t print_dlistint(const dlistint_t *h)
 {
     const dlistint_t *tmp;
     size_t count;
-    
+    /* printing values of a list*/
     tmp = h;
     while (tmp && tmp->prev)
     {
