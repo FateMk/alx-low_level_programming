@@ -25,5 +25,3 @@ endif
 fclean: clean oclean
 
 re: fclean all
-Footer
-
